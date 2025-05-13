@@ -30,4 +30,4 @@ capacidad = {
 df_capacidad = pd.DataFrame(list(capacidad.items()), columns=['Centro', 'Capacidad_Usuarios'])
 df_capacidad.to_csv("capacidad_centros_deportivos.csv", index=False)
 
-print("✅ Archivos CSV generados correctamente.")
+print("Archivos CSV generados correctamente.")
